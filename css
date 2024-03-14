@@ -1,0 +1,11 @@
+.image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 将图片分为三列 */
+    grid-gap: 10px; /* 图片之间的间距 */
+}
+
+.image img {
+    max-width: 100%; /* 图片的最大宽度为容器的宽度 */
+    height: auto; /* 让图片按比例缩放 */
+    display: block; /* 移除默认的图片间隙 */
+}
