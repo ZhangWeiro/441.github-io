@@ -1,51 +1,18 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-  <title>image</title>
-  <meta name="generator" content="Jekyll v3.9.3" />
-  <meta property="og:title" content="img" />
-  <meta property="og:locale" content="en_US" />
-  <link rel="canonical" href="https://github.com/ZhangWeiro/441.github.io/tree/main/image" />
-  <meta property="og:url" content="https://github.com/ZhangWeiro/441.github.io/tree/main/image" />
-  <meta property="og:site_name" content="img" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta property="twitter:title" content="img" />
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","headline":"img","name":"img","url":"https://github.com/ZhangWeiro/441.github.io/tree/main/image"}</script>
-  <!-- End Jekyll SEO tag -->
-
-  <link rel="stylesheet" href="/img/assets/css/style.css?v=fe41aacdfc147e3af158f5e479fecc9c353db7d5">
-  <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-  <!-- Setup Google Analytics -->
-
-  <!-- You can set your favicon here -->
-  <!-- link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" -->
-
-  <!-- end custom head snippets -->
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Website</title>
 </head>
 <body>
-<div class="container-lg px-3 my-5 markdown-body">
-  
-  <h1><a href="https://github.com/ZhangWeiro/441.github.io/tree/main/">img</a></h1>
-  
-  <p>
-    <img src="https://raw.githubusercontent.com/ZhangWeiro/441.github.io/main/image/5.png" alt="微信图片_20230606145816" />
-    <img src="https://raw.githubusercontent.com/ZhangWeiro/441.github.io/main/image/d9349ed6-c65b-448c-adc3-4d417cdff9ca" alt="微信图片_20230606145842" />
-    <img src="https://raw.githubusercontent.com/ZhangWeiro/441.github.io/main/image/1f738256-0419-4fd5-afb1-a52e0537b2b2" alt="微信图片_20230606145846" />
-    <img src="https://raw.githubusercontent.com/ZhangWeiro/441.github.io/main/image/1af880dc-eb2a-46ef-a6e0-374bcb90ef00" alt="s" />
-    <img src="https://raw.githubusercontent.com/ZhangWeiro/441.github.io/main/image/04facfdf-08dd-48fb-ad66-f2a9540c5955" alt="s1" />
-  </p>
-
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-<script>anchors.add();</script>
+    <h1>Welcome to My GitHub Website</h1>
+    <p>images:</p>
+    
+    <img src="5.png" alt="Image 1">
+    <img src="1.png" alt="Image 2">
+    <img src="1.png" alt="Image 3">
+    <img src="1.png" alt="Image 4">
+    <img src="1.png" alt="Image 5">
 </body>
 </html>
