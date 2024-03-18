@@ -152,6 +152,13 @@
     .contact-form {
         flex: 1;
     }
+    .table-container {
+        flex: 1.5; /* 调整表格占据的空间大小 */
+        margin-right: 20px; /* 可根据需要调整地图和表单之间的间距 */
+    }
+    .table {
+        width: 100%; /* 让表格占据父容器的全部宽度 */
+    }
 </style>
 </head>
 <body>
@@ -163,6 +170,25 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.1335510317895!2d151.17880335845223!3d-33.91196219999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b04e09b98cad%3A0xd683144ff5667c6e!2zQmFyd29uIFBhcmsgUmQsIFN0IFBldGVycyBOU1cgMjA0NOa-s-Wkp-WIqeS6mg!5e0!3m2!1szh-CN!2sus!4v1710224350559!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+    <div class="table-container">
+        <table class="table" border="1">
+            <tr>
+                <th>表头1</th>
+                <th>表头2</th>
+                <th>表头3</th>
+            </tr>
+            <tr>
+                <td>数据1</td>
+                <td>数据2</td>
+                <td>数据3</td>
+            </tr>
+            <tr>
+                <td>数据4</td>
+                <td>数据5</td>
+                <td>数据6</td>
+            </tr>
+        </table>
+    </div>
     <section class="contact-form">
         <!-- 这里放置你的表单代码 -->
         <div class="title-box">
@@ -190,6 +216,7 @@
 
 </body>
 </html>
+
 
 
 					</div>
