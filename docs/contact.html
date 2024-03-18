@@ -159,45 +159,62 @@
 				<!-- Form Column -->
 				<div class="form-column col-lg-6 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<section class="google-map">
-					<div class="mapouter">
-					</div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.1335510317895!2d151.17880335845223!3d-33.91196219999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b04e09b98cad%3A0xd683144ff5667c6e!2zQmFyd29uIFBhcmsgUmQsIFN0IFBldGVycyBOU1cgMjA0NOa-s-Wkp-WIqeS6mg!5e0!3m2!1szh-CN!2sus!4v1710224350559!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</section>
-				
-						</div>
-						<!-- Contact Form -->
-						<div class="contact-form">
-							<div class="title-box">
-								<h2>Get in touch</h2>
-							</div>
-							<!-- Contact Form -->
-							<form method="post" action="sendemail.php" id="contact-form">
-								
-								<div class="form-group">
-									<input type="text" name="username" placeholder="Your Name *" required>
-								</div>
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>地图与表单</title>
+<style>
+    .container {
+        display: flex;
+    }
+    .google-map {
+        flex: 1;
+        margin-right: 20px; /* 可根据需要调整地图和表单之间的间距 */
+    }
+    .contact-form {
+        flex: 1;
+    }
+</style>
+</head>
+<body>
 
-								<div class="form-group">
-									<input type="email" name="email" placeholder="Your Emaill *" required>
-								</div>
+<div class="container">
+    <section class="google-map">
+        <!-- 这里放置你的地图代码 -->
+        <div class="mapouter">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.1335510317895!2d151.17880335845223!3d-33.91196219999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b04e09b98cad%3A0xd683144ff5667c6e!2zQmFyd29uIFBhcmsgUmQsIFN0IFBldGVycyBOU1cgMjA0NOa-s-Wkp-WIqeS6mg!5e0!3m2!1szh-CN!2sus!4v1710224350559!5m2!1szh-CN!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="contact-form">
+        <!-- 这里放置你的表单代码 -->
+        <div class="title-box">
+            <h2>Get in touch</h2>
+        </div>
+        <form method="post" action="sendemail.php" id="contact-form">
+            <div class="form-group">
+                <input type="text" name="username" placeholder="Your Name *" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email *" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Enter your phone…" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn theme-btn btn-style-one bg-primary" type="submit" name="submit-form"><span class="txt">Send message</span></button>
+            </div>
+        </form>
+    </section>
+</div>
 
-								<div class="form-group">
-									<input type="text" name="phone" placeholder="Enter your phone…" required>
-								</div>
+</body>
+</html>
 
-								<div class="form-group">
-									<textarea name="message" placeholder="Message"></textarea>
-								</div>
-
-								<div class="form-group">
-									<button class="btn theme-btn btn-style-one bg-primary" type="submit" name="submit-form"><span class="txt">Send message</span></button>
-								</div>
-
-							</form>
-
-						</div>
-						<!--End Contact Form -->
-						
 					</div>
 				</div>
 				
