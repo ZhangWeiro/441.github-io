@@ -164,19 +164,16 @@
 <body>
 
 <div class="container">
-    <section class="google-map">
-        <!-- This is where your map code goes -->
-        <div class="mapouter">
-            <iframe src="https://maps.app.goo.gl/KLGi25tPdMTniVjs9"></iframe>
-        </div>
-    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590104.586713082!2d134.9553586297484!3d-26.29052131501344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2z5r6z5aSn5Yip5Lqa!5e0!3m2!1szh-CN!2sin!4v1710823395884!5m2!1szh-CN!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    
+    <!-- Section for displaying the Contact Form -->
     <section class="contact-form">
         <!-- This is where your form code goes -->
         <div class="title-box">
             <h2>Get in touch</h2>
         </div>
         <form method="post" action="sendemail.php" id="contact-form">
+            <!-- Form inputs for user's name, email, and phone -->
             <div class="form-group">
                 <input type="text" name="username" placeholder="Your Name *" required>
             </div>
@@ -186,9 +183,11 @@
             <div class="form-group">
                 <input type="text" name="phone" placeholder="Enter your phone…" required>
             </div>
+            <!-- Textarea for user's message -->
             <div class="form-group">
                 <textarea name="message" placeholder="Message"></textarea>
             </div>
+            <!-- Button to submit the form -->
             <div class="form-group">
                 <button class="btn theme-btn btn-style-one bg-primary" type="submit" name="submit-form"><span class="txt">Send message</span></button>
             </div>
@@ -198,6 +197,7 @@
 
 </body>
 </html>
+
 
 
 
